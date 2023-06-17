@@ -1,7 +1,8 @@
 import React, { useState, useEffect } from 'react';
-import { Container, AppBar, Typography, Grow, Grid } from '@material-ui/core';
+import { Container, Grow, Grid } from '@material-ui/core';
 import { useDispatch } from 'react-redux';
 
+import Navbar from './components/Navbar/Navbar.js';
 import Posts from './components/Posts/Posts';
 import Form from './components/Form/Form';
 import { getPosts } from './actions/posts';
@@ -17,12 +18,10 @@ const App = () => {
     dispatch(getPosts());
   }, [currentId, dispatch]);
 
+  // Page Header
   return (
     <Container maxWidth="lg">
-      <AppBar className={classes.appBar} position="static" color="inherit">
-        <Typography className={classes.heading} variant="h2" align="center">PhotoLabs</Typography>
-        <img className={classes.image} src={memories} alt="icon" height="60" />
-      </AppBar>
+      <Navbar />
       <Grow in>
         <Container>
           <Grid container justify="space-between" alignItems="stretch" spacing={3}>
