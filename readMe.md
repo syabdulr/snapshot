@@ -1,13 +1,24 @@
 # PhotoLabs by: Abdul Syed
 <img src='./projectImages/memoriesText.png' />
 
-### Users can add, delete and update their own snapshots of life! Moreover, users can like and View each other's pictures!
+### Users can add, delete and update their own snapshots of life! Moreover, users can Like and View each other's pictures!
+
+## Features
+- Users can login and create a post
+- Users can like a post
+- Users can edit THEIR own posts
+- Users can search through tags with search bar
+- Users can search through memories to access a specific image
+- Users can see pages of images with Pagination
 
 ## Interface
-
+Front Page
 <img src='./projectImages/home_PhotoLabs.png' />
+Clicking on a Post
 <img src='./projectImages/post_PhotoLabs.png' />
+Prompt user to Login
 <img src='./projectImages/signIn_PhotoLabs.png' />
+User Registration and Google Auth
 <img src='./projectImages/register_PhotoLabs.png' />
 
 
