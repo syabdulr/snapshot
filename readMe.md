@@ -1,4 +1,4 @@
-# PhotoLabs 
+# PhotoLabs by: Abdul Syed
 <img src='./projectImages/memoriesText.png' />
 
 ### Users can add, delete and update their own snapshots of life! Moreover, users can like and View each other's pictures!
