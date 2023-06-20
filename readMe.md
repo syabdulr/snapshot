@@ -1,7 +1,7 @@
 # PhotoLabs 
 <img src='./projectImages/memoriesText.png' />
 
-### PhotoLabs, where Users can add, delete, update, like and View each other's memories!
+### Users can add, delete and update their own snapshots of life! Moreover, users can like and View each other's pictures!
 
 ## Interface
 
