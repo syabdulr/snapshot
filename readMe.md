@@ -1,13 +1,14 @@
-# :closed_book: Memories Manager (Full-Stack App)
+# PhotoLabs
 
-### _Memories Manager Applciation, where Users can add, delete, update and like memories, and View each other's memories !!_
+### PhotoLabs, where Users can add, delete, update, like and View each other's memories !!_
 
 ## Interface
-
+<!-- 
 <img src='./projectImages/home.png/' />
 <img src='./projectImages/details.png/' />
 <img src='./projectImages/signIn.png/' />
 <img src='./projectImages/signUp.png/' />
+
 
 
 ## Mobile Interface
@@ -68,3 +69,5 @@
 - - nodemon
 - - bcryptjs (for password hashing)
 - - jsonwebtoken (for web tokens and sessions)
+
+!-->
