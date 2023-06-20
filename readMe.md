@@ -1,7 +1,7 @@
 # PhotoLabs by: Abdul Syed
 <img src='./projectImages/memoriesText.png' />
 
-### Users can add, delete and update their own snapshots of life! Moreover, users can Like and View each other's pictures!
+#### This is a web application for posting and sharing memories. It allows users to create, edit, and delete memories by uploading images, adding captions, and tags. The application features user authentication and authorization using JSON Web Tokens (JWTs) and the bcrypt library for password hashing.
 
 ## Features
 - Users can login and create a post
@@ -20,8 +20,6 @@ Prompt user to Login
 <img src='./projectImages/signIn_PhotoLabs.png' />
 User Registration and Google Auth
 <img src='./projectImages/register_PhotoLabs.png' />
-
-
 
 ## Mobile Interface
 
