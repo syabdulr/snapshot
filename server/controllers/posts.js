@@ -21,7 +21,7 @@ export const getPosts = async (req, res) => {
 
   try {
     // variables
-    const LIMIT = 8; // Limit number of posts
+    const LIMIT = 3; // Limit number of posts
     const startIndex = (Number(page) - 1) * LIMIT; // Get start index every page
     const total = await PostMessage.countDocuments(); // Get total documents in database (posts)
 

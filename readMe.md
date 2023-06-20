@@ -1,25 +1,40 @@
-# PhotoLabs
+# PhotoLabs 
+<img src='./projectImages/memoriesText.png' />
 
-### PhotoLabs, where Users can add, delete, update, like and View each other's memories !!_
+### PhotoLabs, where Users can add, delete, update, like and View each other's memories!
 
 ## Interface
-<!-- 
-<img src='./projectImages/home.png/' />
-<img src='./projectImages/details.png/' />
-<img src='./projectImages/signIn.png/' />
-<img src='./projectImages/signUp.png/' />
+
+<img src='./projectImages/home_PhotoLabs.png' />
+<img src='./projectImages/post_PhotoLabs.png' />
+<img src='./projectImages/signIn_PhotoLabs.png' />
+<img src='./projectImages/register_PhotoLabs.png' />
 
 
 
 ## Mobile Interface
 
-<img src='./projectImages/mobile.png/' />
-<img src='./projectImages/mobile2.png/' />
+<img src='./projectImages/mobile_PhotoLabs.png' />
 
 ## Run Locally
 
-- Run this command 
-- You are now in the dev environment and you can play around
+- Run this command to clone repo
+
+```
+git clone git@github.com:syabdulr/snapshot.git
+```
+- run this command to start client page
+```
+cd client 
+npm install
+npm start
+```
+- run this command to start server (ensure you are in root directory of project)
+```
+cd server
+npm install
+npm start
+```
 
 ## Features
 
@@ -29,7 +44,6 @@
 - View Other user's memories
 - Recommended Posts
 - Mobile Responsive
-- Open Source (Tweak it and use it) :)
 - Pagination
 - Validation
 
@@ -70,4 +84,3 @@
 - - bcryptjs (for password hashing)
 - - jsonwebtoken (for web tokens and sessions)
 
-!-->
