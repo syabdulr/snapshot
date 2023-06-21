@@ -18,7 +18,7 @@ export default function Posts({ setCurrentId }) {
 
   if (!posts.length && !isLoading) return "No posts";
 
-  // Return
+  // Return posts
   return isLoading ? (
     <CircularProgress />
   ) : (
@@ -29,7 +29,7 @@ export default function Posts({ setCurrentId }) {
       spacing={3}
     >
       {posts.map((post) => (
-        <Grid item key={post._id} xs={12} sm={12} md={6} lg={4} xl={3}>
+        <Grid item key={post._id} xs={12} sm={12} md={6} lg={4} xl={4}>
           <Post setCurrentId={setCurrentId} post={post} />
         </Grid>
       ))}
